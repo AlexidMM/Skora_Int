@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skora</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 15px;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px;
+        }
+
+        .navbar a:hover {
+            background-color: #555;
+        }
+
+        .header {
+            text-align: center;
+            padding: 50px;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .product {
+            background-color: #f4f4f4;
+            margin: 20px;
+            text-align: center;
+            width: 300px;
+        }
+
+        .product img {
+            width: 100%;
+            height: auto;
+        }
+
+        .product h2 {
+            margin: 10px 0;
+        }
+
+        @media (max-width: 768px) {
+            .product {
+                width: 45%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .product {
+                width: 100%;
+            }
+        }
+
+        .footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <div class="logo">
+        <a href="index.html">Skora</a>
+    </div>
+    <div>
+        <a href="prod.html">Bolsas</a>
+        <a href="#">Carteras</a>
+        <a href="sucur.html">Sucursales</a>
+        <a href="#">Contacto</a>
+        <a href="login.php">Inicio de Sesión</a>
+    </div>
+</div>
+
+<div class="header">
+    <h1>Bienvenidx a Skora</h1>
+</div>
+
+<div class="products">
+    <div class="product">
+        <img src="producto1.jpg" alt="Producto 1"> <!-- Replace with a real image -->
+        <h2>Producto 1</h2>
+        <p>Descripción breve del producto 1.</p>
+    </div>
+    <div class="product">
+        <img src="producto2.jpg" alt="Producto 2"> <!-- Replace with a real image -->
+        <h2>Producto 2</h2>
+        <p>Descripción breve del producto 2.</p>
+    </div>
+    <div class="product">
+        <img src="producto3.jpg" alt="Producto 3"> <!-- Replace with a real image -->
+        <h2>Producto 3</h2>
+        <p>Descripción breve del producto 3.</p>
+    </div>
+    <!-- Add more products as needed -->
+</div>
+
+<div class="footer">
+    <p>&copy; 2024 Skora. Todos los derechos reservados.</p>
+</div>
+
+</body>
+</html>

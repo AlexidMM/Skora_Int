@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: black;
+}
+
+#btn-search {
+    background-color: #0F2182;
+    color: #FFFFFF;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.links a {
+    margin: 0 10px;
+}
+
+#btn_edit {
+    background-color: yellow;
+}
+.btn {
+    background-color: #0F2182;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #23527c;
+}
+
+#btn-cliente {
+    background: none;
+    border: none; 
+    padding: 0; 
+}
+
+
+
+.profile-img {
+    width: 20px; /* Ajusta el ancho de la imagen */
+    height: 20px; /* Ajusta el alto de la imagen */
+}
+
+#clienteDialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 30px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: none;
+}
+
+#clienteDialog[open] {
+    display: block;
+}

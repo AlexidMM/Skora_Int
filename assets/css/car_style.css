@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F1F1F1;
+}
+table {
+  background-color: #FFFFFF;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #D3FFFF;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #3e8e41;
+}
+
+.btn-danger {
+  background-color: #cc0000;
+  color: #fff;
+}
+
+.btn-danger:hover {
+  background-color: #D85B57;
+}
+.botones {
+    margin-top: 20px;
+}
+
+.btn-primary {
+  background-color: #FFB600;
+  color: #fff;
+}
+.btn-primary:hover {
+  background-color: #FFB548;
+}
+
+.comprar-btn {
+  float: right;
+}
+
+.btn-warning{
+  background-color: #E0D82C;
+}
+
+.btn-warning:hover {
+  background-color:#FFFFD3; 
+}
